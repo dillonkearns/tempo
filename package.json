@@ -7,14 +7,18 @@
     "start": "npm run build && electron .",
     "dist": "npm run build && electron-builder"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
   "devDependencies": {
     "electron": "^7.1.3",
     "electron-builder": "^21.2.0",
     "typescript": "^3.7.3"
   },
   "build": {
-    "files": ["**/*"],
+    "files": [
+      "**/*"
+    ],
     "productName": "Tempo",
     "mac": {
       "extendInfo": {
