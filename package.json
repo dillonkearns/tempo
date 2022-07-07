@@ -8,7 +8,7 @@
     "dist": "npm run build && electron-builder"
   },
   "dependencies": {
-    "moment": "^2.24.0"
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "electron": "^7.1.3",
